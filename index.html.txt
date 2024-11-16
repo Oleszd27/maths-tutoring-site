@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Tutoring by [Your Name]</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #004d99;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        h2 {
+            color: #004d99;
+        }
+        .btn {
+            display: inline-block;
+            background: #ffcc00;
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #ffaa00;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        table th {
+            background: #004d99;
+            color: white;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to Maths Tutoring by [Your Name]</h1>
+        <p>Helping middle school students excel with personalised lessons</p>
+        <a href="#contact" class="btn">Book a Session</a>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m a certified middle school maths teacher with [X years] of experience. My mission is to make maths engaging and accessible for all students by tailoring lessons to their unique needs.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Services</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Price (AUD)</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1:1 In-Person Tutoring</td>
+                    <td>$60/hour</td>
+                    <td>Tailored maths lessons at your location.</td>
+                </tr>
+                <tr>
+                    <td>1:1 Online Tutoring</td>
+                    <td>$50/hour</td>
+                    <td>Virtual lessons via Zoom or Teams.</td>
+                </tr>
+                <tr>
+                    <td>Group Tutoring (3–5 students)</td>
+                    <td>$25–$40/student</td>
+                    <td>Collaborative sessions to save costs.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 10px;"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 10px;"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 10px;"></textarea><br><br>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Maths Tutoring by [Your Name]. All rights reserved.</p>
+        <p><a href="#top">Back to Top</a></p>
+    </footer>
+
+</body>
+</html>
